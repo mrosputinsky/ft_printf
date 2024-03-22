@@ -106,23 +106,20 @@ size_t	wordcount(char const *s, char d)
 		wc++;
 	return (wc);
 }
-
+/*
 int	main(void)
 {
 	char const	*s;
 	char		d;
 	char		**str;
-	char a = 'j';
-	int i = 9;
-	
 
-	s = "lorem ipsum dolor sit amet,\
-		consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, \
-		dignissim sit amet, adipiscing nec, ultricies sed, \
-		dolor. Cras elementum ultricies diam. Maecenas ligula massa, varius a, \
-		semper congue, euismod non, mi.";
+	s = "lorem ipsum dolor sit amet,
+		consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor,
+		dignissim sit amet, adipiscing nec, ultricies sed,
+		dolor. Cras elementum ultricies diam. Maecenas ligula massa, varius a,
+		semper congue, euismod non, mi.  ";
 	d = ' ';
 	str = ft_split(s, d);
 	printf("%s %s %s", str[0], str[1], str[2]);
 	return (0);
-}
+}*/

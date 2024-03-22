@@ -1,0 +1,5 @@
+{
+    "editor.defaultFormatter": "keyhr.42-c-format",
+    "editor.formatOnSave": true,
+    "C_Cpp.errorSquiggles": "disabled"
+}
